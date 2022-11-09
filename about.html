@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+        <!---
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    --->
+</head>
+<style>
+*{
+margin: 0;
+padding: 0;
+}
+body{
+direction: rtl;
+box-sizing: 20000px;
+}
+/*********************buttons*****************/
+#btn:hover{
+
+transform: translate(-4px, -4px);
+box-shadow: 5px 5px 5px rgb(54, 53, 53);
+}
+
+/****section 111111111111111111111111111111111111111111111************************/
+.headersec{
+display: flex;
+justify-content: center;
+direction: rtl;
+margin-top: 20px;
+margin-bottom: 10px;
+height:80px;
+padding-top: 10px;
+}
+.headersec > div {
+height: 40px;
+width: 30%;
+text-align: center;
+}
+.headersec .ico i {
+padding-left: 15px;
+}
+#icon:hover {
+color:blueviolet;
+transform: scale(1.1);
+}   
+.headersec .name {
+/*border: 3px solid rgb(155, 152, 152);*/
+width:190px;
+text-align: center;
+font-size: 30px;
+margin-left: 15%;
+margin-right: 15%;
+}
+/*******search &&&&input ************/
+.search{
+padding-top: 5px;
+}
+.search input {
+padding-left: 10px;
+margin-left: 20px;   
+direction: ltr;
+font-size: 20px;
+height:25px;
+width:200px;
+border: 1px solid white;
+}
+/******************section 22222222222222222222************************/
+.lines {
+direction: rtl;
+display: flex;
+justify-content: center;
+height: 70px;
+}
+.lines button{
+width:100px;
+height: 40px;
+background-color: white;
+border: white;
+margin: 20px;
+}
+hr{
+color: rgba(134, 133, 133, 0.253);
+}
+.lines a :hover {
+color:blueviolet;
+font-weight: bold;
+}
+/************************sec333333333************************/
+.sec3{
+width: 100%;
+height: 50px;
+background-color: rgb(231, 239, 241);
+direction: ltr;
+padding-top: 30px;
+}
+.sec3 a{
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+color: black;
+}
+.home{
+margin-left: 70px;
+}
+.home:hover{
+color: blueviolet;
+}
+/*****44444444************************sec7777777777777_*******************************/
+.sec7{
+height:580px;
+width: 100%;
+direction: ltr;
+}
+.sec7head {  
+width: 100%;
+height: 60px;
+
+text-align: center;
+}
+.sec7head hr{
+margin-left: 48.5%;
+margin-top: 30px;
+width: 3%;
+height: 2px;
+background-color: blueviolet;
+margin-bottom: 17px;    
+}
+.sec70{
+
+display:flex;
+justify-content: center;
+width: 100%;
+height: 500px;
+}
+.sec7img {
+
+width:40%;
+margin-right:120px;
+height: 400px;
+/*border: 2px solid red;*/
+}
+.sec7img11{
+width: 100%;
+height:100%;
+}
+
+.sec7hh{
+width: 35%;
+
+text-align:ltr;
+}
+.sec7hh h1{
+/*margin-top:25%;*/
+font-family: sans-serif;
+font-size: 30px;
+text-align: ltr;
+margin-bottom: 30px;
+}
+.sec7hh p{
+color: rgb(119, 115, 115);
+margin-top: 20px;
+font-size: 20px;
+font-family: sans-serif;
+margin-bottom: 20px;
+line-height:33px;
+}
+.sec7hh span{
+font-weight: bold;
+color: blueviolet;
+letter-spacing: 3px;
+}
+/*****************************SECTION44444444444444444**********************************/
+.sec4{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+padding-right: 5%;
+padding: 10px;
+}
+.sec4 > div {
+text-align: ltr;
+width: 22%;
+height: 200px;
+direction: ltr;
+}
+.sec4 h1{
+font-size: 25px;
+font-family: sans-serif;
+margin-bottom: 15px;
+}
+.sec4 .sec4icon {
+width: 7%;
+color: blueviolet;
+text-align: center;
+}
+/***************555555555********************team***555555********/
+.team5555555555{
+margin-top: 50px;    
+width: 100%;
+height: 550px;
+}
+.team5555555555 .hrr{
+direction: ltr;
+text-align: center;
+width:100%;
+height:70px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+.hrteam{
+margin-left: 48.5%;
+margin-top: 15px;
+width: 3%;
+height: 2px;
+background-color: blueviolet;
+margin-bottom: 17px;  
+}
+/*****************سكشن الصور********************/
+.team{
+margin-top: 30px;
+width: 100%;
+height: 420px;
+display: flex;
+justify-content: center;
+direction: ltr;
+}
+.team > div {
+width: 19%;
+text-align: center;
+margin: 20px;
+
+}
+.team .teamimg img{
+width:130px;
+height: 130px;
+overflow: hidden;
+border-radius: 4em;
+}
+.team5555555555 h1{
+margin-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 5px;
+}
+
+.team5555555555 h3{
+color: rgb(165, 164, 164);    
+margin-bottom: 35px;
+}
+
+.team5555555555 p{
+color: rgb(165, 164, 164);    
+font-family: Arial, Helvetica, sans-serif;
+line-height:30px;
+}
+/********************************footer ***end of bage*****/
+.footer{
+width: 100%;
+height: 650px;
+}
+.footerinfo{
+display: flex;
+justify-content: center;
+direction: ltr;
+margin-top: 20px;
+text-align: left;
+}
+.footerinfo1 {
+width: 15%;
+height: 300px;
+
+margin-right: 20px;
+margin-left: 40px;
+}
+.footerinfo1 h1{margin-bottom: 30px; }
+.footerinfo1 h3{
+margin-bottom: 25px;
+color: rgb(139, 138, 138);
+font-size: 16px; 
+font-family: sans-serif;
+}    
+.footerinfo2 {
+width:16%;
+height: 300px;
+
+margin-right: 20px;
+}
+.footerinfo2 h1{margin-bottom: 55px; }
+.footerinfo2 h3{
+
+margin-bottom: 25px;
+color: rgb(139, 138, 138);
+font-size: 16px; 
+font-family: sans-serif;
+}        
+.footerinfo3 {
+width:14%;
+height: 300px;
+
+margin-right: 20px; 
+}
+.footerinfo3 h1{margin-bottom: 55px; }
+.footerinfo3 h3{
+
+margin-bottom: 25px;
+color: rgb(139, 138, 138);
+font-size: 16px; 
+font-family: sans-serif;
+}        
+.footerinfo4 {
+width: 22%;
+height: 300px;
+
+margin-right: 5px;       
+}
+
+.footerinfo4 h1{margin-bottom: 23px; }
+.footerinfo4 h3{
+margin-bottom: 5px;
+color: blueviolet;
+}
+.footerinfo4 h4{
+color: rgb(139, 138, 138);
+font-size: 16px; 
+font-family: sans-serif;
+}
+.footerinfo4 img{
+width:100%;
+height: 150px;
+
+margin-bottom: 10px; 
+}
+.footerinfo5 {
+width: 20%;
+margin-left: 10px;
+}
+
+.footerinfo5 h1{margin-bottom:28px; }
+.footerinfo5 h3{
+margin-top: 30px;
+font-size: 18px;
+
+margin-bottom: 10px;
+color: rgb(139, 138, 138);
+}
+.footerinfo5 h4{
+margin-top: 30px;
+font-size: 18px;
+
+margin-bottom: 25px;
+color: rgb(139, 138, 138);
+}
+
+.footerinfo5 h5{
+font-size: 18px;
+margin-bottom: 10px;
+color: rgb(139, 138, 138);
+}
+/*****************subscribe**************/
+.subscribe {
+
+width:25% ;
+height: 250px;
+direction:ltr;
+}
+
+.subscribe h1{
+margin-top:0%; 
+margin-bottom: 10px;  
+font-family: sans-serif;
+font-weight: 400;
+}
+.sub11{
+display: flex;
+justify-content: center;
+direction:ltr;
+width:300px;
+height: 50px;
+border: 2px solid rgb(139, 138, 138);
+border-radius: 5px;
+}
+.sub11 button{
+margin-top: 2px; 
+margin-right: 2px; 
+height: 93%;
+width: 35%;
+background-color: blueviolet;
+color: white;
+border-radius: 5px;
+letter-spacing: 3PX;
+}
+.sub11 input{
+height: 95%;
+width: 65%;
+border: 1px solid white;
+font-size: 20px;
+padding-left: 5px;
+}
+/********************FOOTER*****************/
+.footer {
+text-align: center;
+color:rgb(139, 138, 138);
+}
+.footer span{
+color:blueviolet;
+font-weight: bold;
+letter-spacing: 3px;
+}
+</style>
+
+
+
+
+
+
+
+</head>
+<body>
+    <!----------1111111111111111111111111111111111111111111-->
+<section class="headersec">
+    <div class="ico">
+        <i class='fa fa-shopping-cart' style="font-size:20px;margin-left: 15px;" id="icon"></i>
+        <i class='far fa-heart' style='font-size:20px;margin-left: 15px;' id="icon"></i>
+        <i class='fas fa-user-alt' style='font-size:20px;margin-left: 15px;' id="icon"></i>
+    </div>
+    <div class="name" id="n">
+        Ahmed Maged
+    </div>
+    <div class="search">
+        <input type="text" placeholder="search">
+        <i class="fa fa-search" style="color: rgb(126, 123, 123)"></i>
+    </div>
+</section>
+ <hr>
+<!----------------2222222222222222222222222222222222222222222222222222------------>
+<section class="lines">
+        <a href="contact.html"><button>CONTACT</button></a>
+        <a href=""><button>NEW ARRIVAL</button></a>
+        <a href=""><button>CATALOGUE</button></a>
+        <a href="shop.html"><button>SHOP</button></a>
+        <a href="#"><button>ABOUT</button></a>
+        <a href="index.html"><button>HOME</button></a>
+</section>
+<!----------------------3333333333333333home /about 3333333333333333333333333333333-->
+<section class="sec3">
+<a href="index.html" class="home">Home </a>/<a href=""> About</a>
+</section>
+<!----------------------44444444444444444444444444444 how 4444444444444444444444444444444444444444-->
+<section class="sec7">
+    <div class="sec7head">
+         <hr>
+    </div>
+    <div class="sec70">
+        <div class="sec7img">
+            <img class="sec7img11" src="imges/blog_1.jpg" alt="">
+        </div>
+        <div class="sec7hh">
+            <h1>How We Started</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Enim deserunt quod, aliquam pariatur impedit minus dignissimos
+                sapiente eaque assumenda reprehenderit maxime reiciendis?
+                Consequatur quisquam nemo numquam molestiae atque, quibusdam
+                dignissimos. Lorem ipsum dolor sit amet </p> 
+            <p>adipisicing elit. Non eos, illo sit eligendi iste enim 
+                ea obcaecati qui, laboriosam ullam sapiente doloribus.
+                Aliquam non, quasi corrupti facilis consectetur tenetur. Possimus.</p>
+        </div>
+    </div>
+</section>
+<!-------------------------------      team 5555555  ------------------------------>
+<section class="team5555555555">
+    <div class="hrr">
+        <hr class="hrteam">
+        <h1>The Team</h1>
+    </div>
+    <div class="team">
+        <div class="team1">
+            <div class="teamimg">
+                <img src="imges/person_1.jpg" alt=""> 
+            </div>
+            <h1>Elezabeth Graham</h1>
+            <h3>CEO/Co FOUNDER</h3>
+            <p>Lorem ipsum dolor, sit amet 
+            adipisicing elit. Eaque voluptatem
+            vero earum perferendis error! Amet
+            nemo a, soluta minus vitae quisquam
+            animi, velit magni doloribus, illo
+            .</p>
+        </div>
+
+        <div class="team2">
+            <div class="teamimg">
+                <img src="imges/person_2.jpg" alt=""> 
+            </div>
+            <h1>Jennefer Grieve</h1>
+            <h3>Co FOUNDER</h3>
+            <p>Lorem ipsum dolor, sit amet 
+            adipisicing elit. Eaque voluptatem
+            vero earum perferendis error! Amet
+            nemo a, soluta minus vitae quisquam
+            animi, velit magni doloribus, illo
+            .</p>
+        </div>
+
+        <div class="team3">
+            <div class="teamimg">
+                <img src="imges/person_3.jpg" alt=""> 
+            </div>
+            <h1>Patrick Mark</h1>
+            <h3>MARKETING</h3>
+            <p>Lorem ipsum dolor, sit amet 
+            adipisicing elit. Eaque voluptatem
+            vero earum perferendis error! Amet
+            nemo a, soluta minus vitae quisquam
+            animi, velit magni doloribus, illo
+            .</p>
+        </div>
+        <div class="team4">
+            <div class="teamimg">
+                <img src="imges/person_4.jpg" alt=""> 
+            </div>
+            <h1>Mike Coolbert</h1>
+            <h3>SALES MANAGER</h3>
+            <p>Lorem ipsum dolor, sit amet 
+            adipisicing elit. Eaque voluptatem
+            vero earum perferendis error! Amet
+            nemo a, soluta minus vitae quisquam
+            animi, velit magni doloribus, illo
+            .</p>
+        </div>
+    </div>   
+</section>
+<!--------------------------------444444444444444444444444444444------------------->
+<section class="sec4">
+    <div>
+        <h1>
+        FREE SHIPPING
+        </h1>
+        <P>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis laborum aliquam sit deserunt
+            atque earum explicabo temporibus! Neque aperiam nihil facere quia eos commodi.
+        </P>
+    </div>
+    <div class="sec4icon">
+        <i class='far fa-question-circle' style='font-size:45px;background-color:
+        blueviolet;color: white;border-radius: 2em;border:1px solid blueviolet'></i>
+    </div>
+    <div> 
+        <h1>
+        FREE RETURNS
+        </h1>
+        <P>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis laborum aliquam 
+            sit deserunt atque earum explicabo temporibus! Neque aperiam nihil facere quia eos commodi .
+        </P>
+    </div>
+    <div class="sec4icon">
+        <i class='fas fa-undo-alt' style="font-size:45px"></i>
+    </div>
+
+    <div>
+    <h1>
+      CUSTOMER SUPPORT  
+    </h1>
+    <P>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis laborum aliquam
+         sit deserunt atque earum explicabo temporibus! Neque aperiam nihil facere quia eos commodi .
+    </P>
+        </div>
+    <div. class="sec4icon">
+        <i class="fa fa-truck" style="font-size:40px;"></i>
+    </div.>
+
+</section>
+<!----------------------------footer-endddddddddddddddddddddddddddddd----------------------------->
+<hr>
+<section class="footer">
+    <div class="footerinfo">
+        <div class="footerinfo1">
+            <h1>Navigation</h1>
+            <h3>Sell online</h3>
+            <h3>Features</h3>
+            <h3>Shopping cart</h3>
+            <h3>Store builder</h3>
+        </div>
+        <div class="footerinfo2">
+            <h1></h1>
+            <h3>Mopile commerce</h3>
+            <h3>Drop shipping</h3>
+            <h3>Website developement</h3>
+        </div>
+        <div class="footerinfo3">
+            <h1></h1>
+            <h3>Point of sale</h3>
+            <h3>hardware</h3>
+            <h3>Software</h3>
+        </div>
+        <div class="footerinfo4">
+            <h1>Promo</h1>
+            <img src="imges/hero_1.jpg" alt="">
+            <h3>Finding your Perfect Shoes</h3>
+            <h4>Promo from 3 oct 2021</h4>
+        </div>
+        <div class="footerinfo5">
+            <h1>Contact Info</h1>
+            <h3>
+                <i class='fas fa-map-marker-alt' style='font-size:20px;color:blueviolet'></i>
+                26 abo bakr elsidik st .Berket Elsab3 . Menofia . Egypt
+            </h3>
+            <h4>
+                <i class='fas fa-phone-alt' style='font-size:20px;color:blueviolet'></i>
+                +0201098049002</h4>
+            <h5>
+                <i class="fa fa-envelope" style="font-size:20px;color:blueviolet"></i>
+                amaged397@gmail.com</h5>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <div class="sub">
+            <h1>Subscribe</h1>
+            <div class="sub11">
+            
+            <input type="email"placeholder="Email">
+            <button>SEND</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        copy right &copy; 2021 all copy right reserved | the template is made to you <i class='fas fa-heart'></i> By <SPAN>AHMED MAGED</SPAN>.  
+    </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+<script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/duotone.js" integrity="sha384-PcDzzpTJzDDda2YUM4EY5ZqnZQ3DTIFtoaAn7t07N0UIY1HVyaxIHRzROmFBd48z" crossorigin="anonymous"></script>
+<script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/fontawesome.js" integrity="sha384-8YSeMunSTZdDZy7rZxfG3NqC3KnYaCKxTJMm9yoILgIoMpXeTKDrV8TeV9C5ItEc" crossorigin="anonymous"></script>
+</body>
+</html>
